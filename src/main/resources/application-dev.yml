@@ -1,0 +1,7 @@
+logging:
+  level:
+    com.selcukmeral.retry: DEBUG
+  file: /logs/spring-boot-retry.log
+  pattern:
+    file: "%d %-5level [%thread] %logger : %msg%n"
+      
